@@ -1,3 +1,162 @@
+
+
+@media (max-width:600px){
+
+body{
+display:flex;
+flex-direction:column;
+align-items:center;
+padding:40px 0;
+
+}
+
+
+.title,
+.introduction{
+    pointer-events: none;
+}
+
+
+.oneten,
+.twelve,
+.title,
+.introduction{
+position:static !important;
+width:100% !important;
+height:auto  !important;
+margin: 0  !important;
+text-align: center;
+z-index: auto !important;
+
+
+}
+
+.one,
+.ten,
+.twelve12{
+position:static !important;
+font-size:120px !important;
+font-weight:300;
+margin:20px 0;
+position: relative;
+z-index: 1000;
+
+
+}
+
+.title1,
+.title2{
+position:static !important;
+font-size:25px !important;
+margin:0;
+
+}
+
+.year,
+.magazine,
+.archive{
+position:static !important;
+font-size:25px !important;
+margin:0;
+}
+
+.one a,
+.ten a, 
+.twelve12 a {
+    color: black !important;
+    text-decoration: none;
+    transition: 0.3s; 
+    pointer-events: auto;
+}
+
+.one a:hover, 
+.ten a:hover, 
+.twelve12 a:hover {
+    color: #d9d9d9 !important;
+}
+
+.one a,
+.ten a,
+.twelve12 a{
+    display: inline-block;
+    cursor: pointer;
+}
+
+}
+
+@media (max-width: 600px) {
+
+
+   
+    
+    body {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+        padding: 20px 0 !important;
+        margin: 0 !important;
+    }
+
+    .january {
+        order: 1 !important; 
+        position: static !important;
+        width: 100% !important;
+        text-align: center !important;
+        margin-top: 0 !important;
+        margin-bottom: 20px !important;
+    }
+
+    
+    .january-group{
+        display: flex !important;
+        justify-content: center !important;
+        font-size: 80px !important;
+    }
+   
+
+    
+    
+    
+      .month {
+        order: 2 !important;
+        position: static !important;
+        display: flex !important;
+        justify-content: center !important;
+        gap: 20px !important;
+        margin-bottom: 40px !important; 
+    }
+    
+
+    .month article {
+    font-size: 20px !important; 
+        position: static !important;
+    }
+
+
+    }
+
+    
+    .picture {
+        order: 3 !important;
+        position: static !important;
+        width: 90% !important;
+           }
+    
+    .picture img {
+        width: 100% !important;
+        height: auto !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+
+
+
+
+
+
+
 .oneten{
 	/*background-color: #d5bafc;*/
 	width: 70vw;
